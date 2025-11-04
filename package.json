@@ -1,0 +1,23 @@
+{
+  "name": "mewp-monitoring-dashboard",
+  "version": "1.0.0",
+  "description": "Web dashboard for monitoring MEWP vehicles and battery packs with telematics control units",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [
+    "mewp",
+    "telematics",
+    "dashboard",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
