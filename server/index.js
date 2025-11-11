@@ -14,7 +14,7 @@ app.use(express.json());
 // =============================== 
 //  Configuration 
 // =============================== 
-const PORT = process.env.PORT || 5000; 
+const PORT = process.env.PORT || 5001; 
  
 // 👇 Use your actual AWS API Gateway URL 
 const API_GATEWAY_URL = 
